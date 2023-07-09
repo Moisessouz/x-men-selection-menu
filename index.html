@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>X-Men: Choose your character</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&family=Poppins:wght@300;500;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/reponsive.css" />
+    <script src="./src/js/index.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <img class="logo" src="./src/img/logo.svg" alt="X-Men Logo" />
+    </header>
+
+    <main class="selection-grid">
+      <section class="characters">
+        <h1 class="title">Choose your character</h1>
+        <ul class="character-list">
+          <li id="cyclops" class="character" data-name="Cyclops" data-description="He has the power to shoot optic blasts due to an accident that happened to him when he was a child, but he can't control them.">
+            <img src="./src/img/card-cyclops.jpg" alt="Cyclops" />
+          </li>
+          <li id="jean-grey" class="character" data-name="Jean Grey" data-description="Jean Grey is an omega-level mutant and the primary host of the Phoenix Force, through which she manifests cosmic powers. She possesses telepathy and telekinesis abilities.">
+            <img src="./src/img/card-jean-grey.jpg" alt="Jean Grey" />
+          </li>
+          <li id="magneto" class="character" data-name="Magneto" data-description="He's an omega-level mutant that has the power to control metal objects and create magnetic fields.">
+            <img src="./src/img/card-magneto.jpg" alt="Magneto" />
+          </li>
+          <li id="nightcrawler" class="character" data-name="Nightcrawler" data-description="He has superhuman agility and the ability to teleport, become invisible in deep shadows, and his hands and feet can cling to walls.">
+            <img src="./src/img/card-nightcrawler.jpg" alt="Nightcrawler " />
+          </li>
+          <li id="rogue" class="character" data-name="Rogue" data-description="She has the power to absorb the life force and memories of the people she touches, or in the case of mutants, their powers and memories, but only temporarily.">
+            <img src="./src/img/card-rogue.jpg" alt="Rogue" />
+          </li>
+          <li id="shadowcat" class="character" data-name="Shadowcat" data-description="She has the power to phase through solid matter and energy fields, as well as emit optic blasts while remaining unharmed. Additionally, she has the ability to levitate and walk in the air.">
+            <img src="./src/img/card-shadowcat.jpg" alt="Shadowcat" />
+          </li>
+          <li id="storm" class="character" data-name="Storm" data-description="She has the power to control the forces of nature. She is incredibly powerful and can produce lightning, rain, ice, winds, fog, and other related effects.">
+            <img src="./src/img/card-storm.jpg" alt="Storm" />
+          </li>
+          <li id="wolverine" class="character" data-name="Wolverine" data-description="He is a mutant who possesses sharp senses, enhanced physical abilities, a powerful regenerative ability known as a healing factor, and three retractable adamantium claws in each hand.">
+            <img src="./src/img/card-wolverine.jpg" alt="Wolverine" />
+          </li>
+        </ul>
+      </section>
+      <section class="selected-character">
+        <img class="full-body" src="./src/img/card-cyclops.png" alt="Cyclops" />
+
+        <div class="character-info">
+          <h2 id="character-name" class="character-name">Cyclops</h2>
+          <p id="character-description" class="character-description">
+            He has the power to shoot optic blasts due to an accident that happened to him when he was a child, but he can't control them.
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
